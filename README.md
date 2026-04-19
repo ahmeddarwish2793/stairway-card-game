@@ -143,6 +143,32 @@ Download the latest version of the game here:
 
 ---
 
+## ▶️ Run the Game (macOS)
+
+This application requires Java 17 and additional JVM options.
+
+### Step 1: Set Java version
+
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export PATH="$JAVA_HOME/bin:$PATH"
+```
+### Step 2: Set required JVM options
+
+```bash
+export JAVA_TOOL_OPTIONS="\
+--add-exports=java.desktop/sun.awt=ALL-UNNAMED \
+--add-exports=java.desktop/sun.lwawt=ALL-UNNAMED \
+--add-exports=java.desktop/sun.lwawt.macosx=ALL-UNNAMED"
+```
+
+### Step 3: Run the game  
+
+```bash
+java -jar stairway-card-game.jar
+```
+---
+
 ## Note for Developers
 
 The source code is included for demonstration and review purposes.
