@@ -135,6 +135,14 @@ To play the game, please use the packaged distribution available in the Releases
 
 ---
 
+## 📦 Download
+
+Download the latest version of the game here:
+
+👉 https://github.com/ahmeddarwish2793/stairway-card-game/releases
+
+---
+
 ## Note for Developers
 
 The source code is included for demonstration and review purposes.
